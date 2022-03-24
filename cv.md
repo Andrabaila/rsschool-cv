@@ -35,7 +35,7 @@ ___
 ***Studying at rsschool is my first experience of real work as a developer***
 
 ## Education
-Belarusian-Russian University 2006
+Belarusian-Russian University
 
 Specialty: technical operation of vehicles
 
