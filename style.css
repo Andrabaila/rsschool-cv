@@ -1,1 +1,92 @@
-some css text
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.header,
+.main,
+footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo_image {
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+}
+
+h3 {
+    margin: 0;
+    word-wrap: none;
+    margin-left: 25px;
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.nav__list_item {
+    margin-right: 10px;
+    background: yellow;
+    padding: 5px;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link__github {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer__logo_image {
+    background: white;
+    width: 90px;
+    height: 30px;
+}
+
+.github__logo {
+    width: 30px;
+    height: 30px;
+    background: blue;
+    border-radius: 15px;
+}

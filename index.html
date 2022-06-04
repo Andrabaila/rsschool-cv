@@ -9,30 +9,42 @@
 </head>
 <body>
     <header class="header">
-        <div class="wrapper">
+        <div class="header__wrapper">
             <div class="header__logo">
-                <img src="logo.jpg" alt="logo">
-                <h2>Front-End Developer</h2>
+                <img class="header__logo_image" src="logo.jpg" alt="logo">
+                <h3>Front End Developer</h3>
             </div>
             <nav class="header__nav">
                 <ul class="nav__list">
                     <li class="nav__list_item">
-                        About me
+                        <a href="#" class="nav__link">
+                            About me
+                        </a>
                     </li>
                     <li class="nav__list_item">
-                        Skills
+                        <a href="#" class="nav__link">
+                            Skills
+                        </a>
                     </li>
                     <li class="nav__list_item">
-                        Code example
+                        <a href="#" class="nav__link">
+                            Code example
+                        </a>
                     </li>
                     <li class="nav__list_item">
-                        Work experience
+                        <a href="#" class="nav__link">
+                            Work experience
+                        </a>
                     </li>
                     <li class="nav__list_item">
-                        Education
+                        <a href="#" class="nav__link">
+                            Education
+                        </a>
                     </li>
                     <li class="nav__list_item">
-                        Contact
+                        <a href="#" class="nav__link">
+                            Contact
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -139,14 +151,15 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="wrapper">
-            <div class="footer__logo">
-                <a href="https://github.com/Andrabaila">My GitHub</a>
+        <div class="footer__wrapper">
+                <a href="https://github.com/Andrabaila" class="link__github">
+                    <img src="github.svg" alt="github" class="github__logo">
+                    My GitHub
+                </a>
                 <p class="footer__content">
                     2022 by Yury Andrabaila thanks to the
                 </p>
-                <a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="rs_school_logo"></a>
-            </div>
+                <a href="https://rs.school/js/" class="link__rss"><img src="rs_school_js.svg" alt="rs_school_logo" class="footer__logo_image"></a>
         </div>
     </footer>
 </body>
