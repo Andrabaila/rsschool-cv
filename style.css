@@ -9,8 +9,8 @@ html {
 }
 
 body {
-    background: black;
-    color: white;
+    background: #000000;
+    color: #ffffff;
 }
 
 .header,
@@ -52,18 +52,83 @@ h3 {
 
 .nav__list_item {
     margin-right: 10px;
-    background: yellow;
+    background: #ffff00;
     padding: 5px;
+}
+
+.nav__list_item:hover {
+    background: #ffff64;
 }
 
 .nav__link {
     text-decoration: none;
     font-size: 20px;
-    color: blue;
+    color: #0000ff;
+    font-size: 24px;
+}
+
+.nav__link:hover {
+    color: #5050ff;
 }
 
 h1 {
     text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-decoration: underline 5px solid #ffff00;
+
+}
+
+.about__content,
+.skills__list,
+.code__content,
+.work__content,
+.education__content,
+.contact__list {
+    font-size: 30px;
+}
+
+.contact__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact__link_item {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.contact_item {
+    display: flex;
+    align-items: center;
+}
+
+.icon_email {
+    background: #ffff00;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.icon_phone {
+    background: #ffff00;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.icon_discord {
+    background: #ffff00;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 10px;
 }
 
 .footer__wrapper {
@@ -79,7 +144,7 @@ h1 {
 }
 
 .footer__logo_image {
-    background: white;
+    background: #ffffff;
     width: 90px;
     height: 30px;
 }
@@ -87,6 +152,7 @@ h1 {
 .github__logo {
     width: 30px;
     height: 30px;
-    background: blue;
+    background: #0000ff;
     border-radius: 15px;
+    margin-right: 10px;
 }

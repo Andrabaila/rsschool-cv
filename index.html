@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="cv.png">
     <title>CV</title>
 </head>
 <body>
@@ -17,104 +18,74 @@
             <nav class="header__nav">
                 <ul class="nav__list">
                     <li class="nav__list_item">
-                        <a href="#" class="nav__link">
-                            About me
-                        </a>
+                        <a class="nav__link" href="#about">About me</a>
                     </li>
                     <li class="nav__list_item">
-                        <a href="#" class="nav__link">
-                            Skills
-                        </a>
+                        <a class="nav__link" href="#skills">Skills</a>
                     </li>
                     <li class="nav__list_item">
-                        <a href="#" class="nav__link">
-                            Code example
-                        </a>
+                        <a class="nav__link" href="#code">Code example</a>
                     </li>
                     <li class="nav__list_item">
-                        <a href="#" class="nav__link">
-                            Work experience
-                        </a>
+                        <a class="nav__link" href="#work">Work experience</a>
                     </li>
                     <li class="nav__list_item">
-                        <a href="#" class="nav__link">
-                            Education
-                        </a>
+                        <a class="nav__link" href="#education">Education</a>
                     </li>
                     <li class="nav__list_item">
-                        <a href="#" class="nav__link">
-                            Contact
-                        </a>
+                        <a class="nav__link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
-
         </div>
     </header>
     <main class="main">
-        <section class="about">
+        <section class="about" id="about">
             <div class="wrapper">
                 <h1>Yury Andrabaila</h1>
                 <h2>About me</h2>
-                <p class="about__content">
-                    I am a talented, ambitious and hardworking individual, with broad skills and experience.
-                </p>
-                <p class="about__content">
-                    Furthermore, I am adept at handling multiple tasks on a daily basis competently and at working well under pressure.
-                </p>
-                <p class="about__content">
-                    A key strength is communication; building strong relationships with people in order to deliver the best results.
-                </p>
-                <p class="about__content">
-                    I am a IT professional with a proven track record in designing websites, networking and managing databases. I have strong technical skills as well as excellent interpersonal skills, enabling me to interact with a wide range of clients. I am eager to be challenged in order to grow and further improve my IT skills. My greatest passion is in life is using my technical know-how to benefit other people and organisations.
-                </p>
-                <p class="about__content">
-                    My goal is to become a highly competent IT professional
-                </p>
+                <p class="about__content">I am a talented, ambitious and hardworking individual, with broad skills and experience.</p>
+                <p class="about__content">Furthermore, I am adept at handling multiple tasks on a daily basis competently and at working well under pressure.</p>
+                <p class="about__content">A key strength is communication; building strong relationships with people in order to deliver the best results.</p>
+                <p class="about__content">I am a IT professional with a proven track record in designing websites, networking and managing databases. I have strong technical skills as well as excellent interpersonal skills, enabling me to interact with a wide range of clients. I am eager to be challenged in order to grow and further improve my IT skills. My greatest passion is in life is using my technical know-how to benefit other people and organisations.</p>
+                <p class="about__content">My goal is to become a highly competent IT professional</p>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="wrapper">
                 <h2>Skills</h2>
                 <ul class="skills__list">
-                    <li class="skills_list_item">
-                        English: A2
-                    </li>
-                    <li class="skills_list_item">
-                        JS
-                    </li>
-                    <li class="skills_list_item">
-                        PHP
-                    </li>
-                    <li class="skills_list_item">
-                        Git
-                    </li>
-                    <li class="skills_list_item">
-                        HTML
-                    </li>
-                    <li class="skills_list_item">
-                        CSS
-                    </li>
-                    <li class="skills_list_item">
-                        Markdown
-                    </li>
+                    <li class="skills_list_item">English: A2</li>
+                    <li class="skills_list_item">JS: A1</li>
+                    <li class="skills_list_item">PHP: A1</li>
+                    <li class="skills_list_item">Git: A2</li>
+                    <li class="skills_list_item">HTML: B1</li>
+                    <li class="skills_list_item">CSS: A2</li>
                 </ul>
             </div>
         </section>
-        <section class="code">
+        <section class="code" id="code">
             <div class="wrapper">
                 <h2>Code example</h2>
-            </div>
-        </section>
-        <section class="work">
-            <div class="wrapper">
-                <h2>Work experience</h2>
-                <p class="work__content">
-                    Studying at rsschool is my first experience of real work as a developer
+                <p class="code__content">
+                    <code>
+                        function even_or_odd(number) { <br>
+                            if (number % 2 === 0){<br>
+                              return "Even";<br>
+                            }<br>
+                                return "Odd";<br>
+                            }
+                    </code>
                 </p>
             </div>
         </section>
-        <section class="education">
+        <section class="work" id="work">
+            <div class="wrapper">
+                <h2>Work experience</h2>
+                <p class="work__content">Studying at rsschool is my first experience of real work as a developer</p>
+            </div>
+        </section>
+        <section class="education" id="education">
             <div class="wrapper">
                 <h2>Education</h2>
                 <p class="education__content">
@@ -124,25 +95,25 @@
                 </p>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="wrapper">
                 <h2>Contact</h2>
                 <ul class="contact__list">
-                    <li class="contact__link_item">
-                        <a href="mailto:androbailo@gmail.com">
-                            <img src="email.svg" alt="icon-email">
+                    <li class="contact_item">
+                        <a class="contact__link_item" href="mailto:androbailo@gmail.com">
+                            <img class="icon_email" src="email.png" alt="icon-email">
                             androbailo@gmail.com
                         </a>
                     </li>
-                    <li class="contact__link_item">
-                        <a href="tel:+375291660323">
-                            <img src="phone.svg" alt="icon-phone">
+                    <li class="contact_item">
+                        <a class="contact__link_item" href="tel:+375291660323">
+                            <img class="icon_phone" src="phone.png" alt="icon-phone">
                             +375 29 166 03 23
                         </a>
                     </li>
-                    <li class="contact__link_item">
-                        <a href="https://discord.com">
-                            <img src="discord.svg" alt="icon-discord">
+                    <li class="contact_item">
+                        <a class="contact__link_item" href="https://discord.com">
+                            <img class="icon_discord" src="discord.png" alt="icon-discord">
                             Discord: Yury_Andrabaila#2727
                         </a>
                     </li>
@@ -152,14 +123,14 @@
     </main>
     <footer class="footer">
         <div class="footer__wrapper">
-                <a href="https://github.com/Andrabaila" class="link__github">
-                    <img src="github.svg" alt="github" class="github__logo">
-                    My GitHub
-                </a>
-                <p class="footer__content">
-                    2022 by Yury Andrabaila thanks to the
-                </p>
-                <a href="https://rs.school/js/" class="link__rss"><img src="rs_school_js.svg" alt="rs_school_logo" class="footer__logo_image"></a>
+            <a class="link__github" href="https://github.com/Andrabaila">
+                <img class="github__logo" src="github.svg" alt="github">
+                My GitHub
+            </a>
+            <p class="footer__content">2022 by Yury Andrabaila thanks to the</p>
+            <a class="link__rss" href="https://rs.school/js/">
+                <img class="footer__logo_image" src="rs_school_js.svg" alt="rs_school_logo">
+            </a>
         </div>
     </footer>
 </body>
