@@ -85,10 +85,15 @@ h2 {
 .about__content,
 .skills__list,
 .code__content,
-.work__content,
+.projects__content,
 .education__content,
 .contact__list {
     font-size: 30px;
+}
+
+.project__link {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .contact__list {
@@ -99,7 +104,6 @@ h2 {
 .contact__link_item {
     text-decoration: none;
     color: #ffffff;
-
 }
 
 .contact_item {
