@@ -1,0 +1,162 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+}
+
+.header,
+.main,
+footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo_image {
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+}
+
+h3 {
+    margin: 0;
+    word-wrap: none;
+    margin-left: 25px;
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.nav__list_item {
+    margin-right: 10px;
+    background: #ffff00;
+    padding: 5px;
+}
+
+.nav__list_item:hover {
+    background: #ffff64;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0000ff;
+    font-size: 24px;
+}
+
+.nav__link:hover {
+    color: #5050ff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-decoration: underline 5px solid #ffff00;
+
+}
+
+.about__content,
+.skills__list,
+.code__content,
+.projects__content,
+.education__content,
+.contact__list {
+    font-size: 30px;
+}
+
+.project__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact__link_item {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact_item {
+    display: flex;
+    align-items: center;
+}
+
+.icon_email {
+    background: #ffff00;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.icon_phone {
+    background: #ffff00;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.icon_discord {
+    background: #ffff00;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link__github {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer__logo_image {
+    background: #ffffff;
+    width: 90px;
+    height: 30px;
+}
+
+.github__logo {
+    width: 30px;
+    height: 30px;
+    background: #0000ff;
+    border-radius: 15px;
+    margin-right: 10px;
+}
