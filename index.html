@@ -1,1 +1,142 @@
-any html text
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/cv.png">
+    <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <img class="header__logo_image" src="logo.jpg" alt="logo">
+                <h3>Front End Developer</h3>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__list_item">
+                        <a class="nav__link" href="#about">About me</a>
+                    </li>
+                    <li class="nav__list_item">
+                        <a class="nav__link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav__list_item">
+                        <a class="nav__link" href="#code">Code example</a>
+                    </li>
+                    <li class="nav__list_item">
+                        <a class="nav__link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav__list_item">
+                        <a class="nav__link" href="#education">Education</a>
+                    </li>
+                    <li class="nav__list_item">
+                        <a class="nav__link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="about" id="about">
+            <div class="wrapper">
+                <h1>Yury Andrabaila</h1>
+                <h2>About me</h2>
+                <p class="about__content">I am a talented, ambitious and hardworking individual, with broad skills and experience.</p>
+                <p class="about__content">Furthermore, I am adept at handling multiple tasks on a daily basis competently and at working well under pressure.</p>
+                <p class="about__content">A key strength is communication; building strong relationships with people in order to deliver the best results.</p>
+                <p class="about__content">I am a IT professional with a proven track record in designing websites, networking and managing databases. I have strong technical skills as well as excellent interpersonal skills, enabling me to interact with a wide range of clients. I am eager to be challenged in order to grow and further improve my IT skills. My greatest passion is in life is using my technical know-how to benefit other people and organisations.</p>
+                <p class="about__content">My goal is to become a highly competent IT professional</p>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="wrapper">
+                <h2>Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills_list_item">English: A2</li>
+                    <li class="skills_list_item">JS: A1</li>
+                    <li class="skills_list_item">PHP: A1</li>
+                    <li class="skills_list_item">Git: A2</li>
+                    <li class="skills_list_item">HTML: A2</li>
+                    <li class="skills_list_item">CSS: A2</li>
+                </ul>
+            </div>
+        </section>
+        <section class="code" id="code">
+            <div class="wrapper">
+                <h2>Code example</h2>
+                <p class="code__content">
+                    <code>
+                        function even_or_odd(number) { <br>
+                            if (number % 2 === 0){<br>
+                              return "Even";<br>
+                            }<br>
+                                return "Odd";<br>
+                            }
+                    </code>
+                </p>
+            </div>
+        </section>
+        <section class="work" id="work">
+            <div class="wrapper">
+                <h2>Projects</h2>
+                <p class="projects__content">
+                    <a class="project__link" href="http://explavto.narod.ru/index.htm">E-library</a>
+                </p>
+                <p class="projects__content">
+                    <a class="project__link" href="https://andrabaila.github.io/rsschool-cv/">CV</a>
+                </p>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <div class="wrapper">
+                <h2>Education</h2>
+                <p class="education__content">
+                    Belarusian-Russian University<br>
+                    Specialty: technical operation of vehicles<br>
+                    Qualification: mechanical engineer<br>
+                </p>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <h2>Contact</h2>
+                <ul class="contact__list">
+                    <li class="contact_item">
+                        <a class="contact__link_item" href="mailto:androbailo@gmail.com">
+                            <img class="icon_email" src="assets/icons/email.png" alt="icon-email">
+                            androbailo@gmail.com
+                        </a>
+                    </li>
+                    <li class="contact_item">
+                        <a class="contact__link_item" href="tel:+375291660323">
+                            <img class="icon_phone" src="assets/icons/phone.png" alt="icon-phone">
+                            +375 29 166 03 23
+                        </a>
+                    </li>
+                    <li class="contact_item">
+                        <a class="contact__link_item" href="https://discord.com">
+                            <img class="icon_discord" src="assets/icons/discord.png" alt="icon-discord">
+                            Discord: Yury_Andrabaila#2727
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <a class="link__github" href="https://github.com/Andrabaila">
+                <img class="github__logo" src="assets/icons/github.svg" alt="github">
+                My GitHub
+            </a>
+            <p class="footer__content">2022 by Yury Andrabaila thanks to the</p>
+            <a class="link__rss" href="https://rs.school/js/">
+                <img class="footer__logo_image" src="assets/icons/rs_school_js.svg" alt="rs_school_logo">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
